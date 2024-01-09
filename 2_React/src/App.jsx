@@ -3,6 +3,8 @@ import {
   Hooks_useEffect,
   Hooks_useContext,
   Hooks_useContext2,
+  Hooks_3_useReducer,
+  Hooks_4_useReducer,
 } from "./components/hooks";
 
 function App() {
@@ -11,7 +13,9 @@ function App() {
       {/* <Hooks_useState /> */}
       {/* <Hooks_useEffect /> */}
       {/* <Hooks_useContext /> */}
-      <Hooks_useContext2 />
+      {/* <Hooks_useContext2 /> */}
+      {/* <Hooks_3_useReducer /> */}
+      <Hooks_4_useReducer />
     </div>
   );
 }
