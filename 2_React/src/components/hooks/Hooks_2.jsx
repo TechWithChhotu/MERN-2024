@@ -27,7 +27,7 @@ function Hooks_useEffect() {
 
       <div>
         {loading ? (
-          "Loading............."
+          "Loading.............."
         ) : (
           <pre>{JSON.stringify(data, null, 2)}</pre>
         )}
